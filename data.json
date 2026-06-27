@@ -1,0 +1,192 @@
+{
+  "name": "Indra Sugara",
+  "greeting": "Hey, I'm Indra",
+  "title": "Full Stack Developer",
+  "subtitle": "Engineer across Web, Mobile, and Cloud Systems",
+  "typing_roles": ["AI Engineer","Full Stack Developer", "Mobile Developer", "Cloud Engineer", "Problem Solver", "Tech Enthusiast"],
+  "bio": "I am a developer who works on making software systems that can grow and make a difference. I have worked on both full-stack development and mobile apps. I like using my strong backend skills and modern web technologies to solve real-world problems. I'm always looking for new ways to build intelligent systems for real-life situations.",
+  "avatar": "assets/profile.jpg",
+  "resume_url": "assets/resume.pdf",
+  "location": "Indonesia",
+  "email": "sughara78@gmail.com",
+  "phone": "+62 822-5930-6737",
+
+  "social": {
+    "github": "https://github.com/indrasugara",
+    "linkedin": "https://linkedin.com/in/indrasugara",
+    "instagram": "https://instagram.com/indrasugara",
+    "email": "sughara78@gmail.com"
+  },
+
+  "core_areas": [
+    "Full-Stack Web Development",
+    "Mobile Development (Flutter)",
+    "Backend APIs",
+    "Cloud Deployment",
+    "React + Next.js",
+    "Node.js + Express",
+    "TypeScript",
+    "PostgreSQL",
+    "DevOps (CI/CD, Docker)"
+  ],
+
+  "education": [
+    {
+      "degree": "S1 Teknik Informatika",
+      "institution": "Universitas Example",
+      "period": "2020 - 2024",
+      "score": "IPK: 3.85/4.00"
+    },
+    {
+      "degree": "SMA IPA",
+      "institution": "SMA Negeri 1 Example",
+      "period": "2017 - 2020",
+      "score": "Nilai: 92/100"
+    }
+  ],
+
+  "skills": {
+    "programming": [
+      { "name": "JavaScript", "icon": "assets/icons/javascript-icon.svg" },
+      { "name": "TypeScript", "icon": "assets/icons/typescript-icon.svg" },
+      { "name": "Dart", "icon": "assets/icons/dart-icon.svg" },
+      { "name": "Python", "icon": "assets/icons/python-icon.svg" }
+    ],
+    "frontend": [
+      { "name": "Flutter", "icon": "assets/icons/flutter-icon.svg" },
+      { "name": "React", "icon": "assets/icons/react-icon.svg" },
+      { "name": "Next.js", "icon": "assets/icons/nextjs-icon.svg" },
+      { "name": "Tailwind CSS", "icon": "assets/icons/tailwind-icon.svg" },
+      { "name": "HTML5", "icon": "assets/icons/html-icon.svg" },
+      { "name": "CSS3", "icon": "assets/icons/css-icon.svg" }
+    ],
+    "backend": [
+      { "name": "Node.js", "icon": "assets/icons/nodejs-icon.svg" },
+      { "name": "Express.js", "icon": "assets/icons/express-icon.svg" },
+      { "name": "PostgreSQL", "icon": "assets/icons/postgresql-icon.svg" },
+      { "name": "MongoDB", "icon": "assets/icons/mongodb-icon.svg" },
+      { "name": "Redis", "icon": "assets/icons/redis-icon.svg" },
+      { "name": "Firebase", "icon": "assets/icons/firebase-icon.svg" }
+    ],
+    "cloud": [
+      { "name": "AWS", "icon": "assets/icons/aws-icon.svg" },
+      { "name": "Docker", "icon": "assets/icons/docker-icon.svg" },
+      { "name": "Vercel", "icon": "assets/icons/vercel-icon.svg" },
+      { "name": "Google Cloud", "icon": "assets/icons/gcp-icon.svg" }
+    ],
+    "tools": ["Git", "GitHub", "Postman", "VS Code", "Figma", "Firebase", "Docker", "Linux"]
+  },
+
+  "projects": [
+    {
+      "name": "LegalEasier",
+      "description": "AI-powered legal document assistant for simplifying legal processes and document management.",
+      "features": [
+        "Developed an AI-powered legal assistant utilizing NLP for document analysis and summarization.",
+        "Built a responsive Flutter mobile app with clean architecture and state management.",
+        "Integrated backend APIs with Node.js and PostgreSQL for scalable data management.",
+        "Enhanced usability with real-time collaboration features across devices."
+      ],
+      "image": "assets/projects/project-1.jpg",
+      "gradient": "radial-gradient(circle, #6a5acd, #6a5acd, #14235c)",
+      "tech_stack": [
+        { "name": "Flutter", "icon": "assets/icons/flutter-icon.svg" },
+        { "name": "Dart", "icon": "assets/icons/dart-icon.svg" },
+        { "name": "Node.js", "icon": "assets/icons/nodejs-icon.svg" },
+        { "name": "PostgreSQL", "icon": "assets/icons/postgresql-icon.svg" }
+      ],
+      "live_url": "https://legaleasier.com",
+      "github_url": "https://github.com/username/legaleasier"
+    },
+    {
+      "name": "Miniatur Cloud",
+      "description": "A lightweight cloud platform console for managing infrastructure and deployments.",
+      "features": [
+        "Built a comprehensive cloud management console with modern web technologies.",
+        "Implemented real-time monitoring dashboard with interactive charts and metrics.",
+        "Designed RESTful APIs for resource provisioning and management.",
+        "Created automated deployment pipelines with CI/CD integration."
+      ],
+      "image": "assets/projects/project-2.jpg",
+      "gradient": "radial-gradient(circle, #059669, #059669, #064e3b)",
+      "tech_stack": [
+        { "name": "React", "icon": "assets/icons/react-icon.svg" },
+        { "name": "Node.js", "icon": "assets/icons/nodejs-icon.svg" },
+        { "name": "Docker", "icon": "assets/icons/docker-icon.svg" },
+        { "name": "AWS", "icon": "assets/icons/aws-icon.svg" }
+      ],
+      "live_url": "https://miniatur-cloud.com",
+      "github_url": "https://github.com/username/miniatur-cloud"
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Interactive developer portfolio with AI-powered chatbot for engaging visitor experience.",
+      "features": [
+        "Designed a modern dark-themed portfolio with particle animation background.",
+        "Integrated AI chatbot using DeepSeek API for interactive Q&A about skills and experience.",
+        "Built with vanilla HTML/CSS/JS for maximum performance and minimal bundle size.",
+        "Implemented smooth scroll, typing animation, and glassmorphic UI components."
+      ],
+      "image": "assets/projects/project-3.jpg",
+      "gradient": "radial-gradient(circle, #2563eb, #2563eb, #1e1b4b)",
+      "tech_stack": [
+        { "name": "HTML5", "icon": "assets/icons/html-icon.svg" },
+        { "name": "CSS3", "icon": "assets/icons/css-icon.svg" },
+        { "name": "JavaScript", "icon": "assets/icons/javascript-icon.svg" }
+      ],
+      "live_url": "https://indrasugara.com",
+      "github_url": "https://github.com/username/portfolio"
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Full Stack Developer Intern",
+      "company": "Company Name",
+      "period": "Jan 2024 - Jun 2024",
+      "description": "Built and maintained full-stack web applications using React and Node.js. Collaborated with the team to design RESTful APIs and implement responsive UI components. Improved application performance by 30% through code optimization.",
+      "certificate_image": ""
+    },
+    {
+      "role": "Mobile Developer",
+      "company": "Freelance",
+      "period": "2023 - Present",
+      "description": "Developed cross-platform mobile applications using Flutter and Dart. Delivered multiple projects for clients including e-commerce apps, task management tools, and social platforms.",
+      "certificate_image": ""
+    }
+  ],
+
+  "achievements": [
+    {
+      "title": "Hackathon Winner",
+      "event": "Tech Hackathon 2025",
+      "type": "achievement",
+      "icon": "trophy"
+    },
+    {
+      "title": "AWS Cloud Practitioner",
+      "event": "Amazon Web Services",
+      "type": "certification",
+      "icon": "certificate",
+      "url": ""
+    },
+    {
+      "title": "Google IT Support",
+      "event": "Google / Coursera",
+      "type": "certification",
+      "icon": "certificate",
+      "url": ""
+    }
+  ],
+
+  "chat": {
+    "welcome_message": "Halo! 👋 Saya AI assistant dari Indra Sugara. Tanya apapun tentang skill, project, atau pengalaman saya!",
+    "suggested_questions": [
+      "Ceritakan tentang diri kamu",
+      "Apa project terbaru kamu?",
+      "Tech stack apa yang kamu kuasai?",
+      "Bagaimana cara menghubungi kamu?",
+      "Apa pengalaman kerja kamu?"
+    ]
+  }
+}
