@@ -5,7 +5,114 @@
    ============================================ */
 
 /* ─── Google Fonts ─── */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap');
+
+/* ============================================
+   SPLASH SCREEN
+   ============================================ */
+.splash-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #000000 0%, #0f172a 100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.splash-screen.fade-out {
+  opacity: 0;
+  transform: scale(0.99);
+  pointer-events: none;
+}
+
+.splash-content {
+  text-align: center;
+  padding: 0 2rem;
+  max-width: 800px;
+}
+
+.splash-text {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(1.25rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  position: relative;
+}
+
+/* Word-by-word reveal */
+.splash-word {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: splashWordReveal 0.4s ease forwards;
+  animation-delay: calc(var(--i) * 0.4s);
+  margin-right: 0.3em;
+}
+
+@keyframes splashWordReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glitch effect — chromatic aberration with ::before and ::after */
+.splash-text.glitch-active::before,
+.splash-text.glitch-active::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.splash-text.glitch-active::before {
+  color: #ff00ff;
+  z-index: -1;
+  animation: glitch-1 0.3s linear infinite;
+}
+
+.splash-text.glitch-active::after {
+  color: #00ffff;
+  z-index: -2;
+  animation: glitch-2 0.3s linear infinite reverse;
+}
+
+@keyframes glitch-1 {
+  0% { clip-path: inset(20% 0 60% 0); transform: translate(-3px, 2px); }
+  10% { clip-path: inset(60% 0 10% 0); transform: translate(3px, -1px); }
+  20% { clip-path: inset(10% 0 80% 0); transform: translate(-2px, 3px); }
+  30% { clip-path: inset(70% 0 5% 0); transform: translate(2px, -2px); }
+  40% { clip-path: inset(30% 0 50% 0); transform: translate(-4px, 1px); }
+  50% { clip-path: inset(50% 0 20% 0); transform: translate(1px, -3px); }
+  60% { clip-path: inset(5% 0 70% 0); transform: translate(-1px, 2px); }
+  70% { clip-path: inset(80% 0 10% 0); transform: translate(3px, -1px); }
+  80% { clip-path: inset(40% 0 40% 0); transform: translate(-3px, 3px); }
+  90% { clip-path: inset(15% 0 65% 0); transform: translate(2px, -2px); }
+  100% { clip-path: inset(55% 0 25% 0); transform: translate(-2px, 1px); }
+}
+
+@keyframes glitch-2 {
+  0% { clip-path: inset(65% 0 15% 0); transform: translate(3px, -2px); }
+  10% { clip-path: inset(10% 0 70% 0); transform: translate(-2px, 3px); }
+  20% { clip-path: inset(50% 0 30% 0); transform: translate(4px, -1px); }
+  30% { clip-path: inset(25% 0 55% 0); transform: translate(-1px, 2px); }
+  40% { clip-path: inset(75% 0 5% 0); transform: translate(2px, -3px); }
+  50% { clip-path: inset(35% 0 45% 0); transform: translate(-3px, 1px); }
+  60% { clip-path: inset(85% 0 5% 0); transform: translate(1px, -2px); }
+  70% { clip-path: inset(45% 0 35% 0); transform: translate(-2px, 3px); }
+  80% { clip-path: inset(5% 0 85% 0); transform: translate(3px, -1px); }
+  90% { clip-path: inset(60% 0 20% 0); transform: translate(-4px, 2px); }
+  100% { clip-path: inset(30% 0 50% 0); transform: translate(2px, -3px); }
+}
 
 /* ─── CSS Variables ─── */
 :root {

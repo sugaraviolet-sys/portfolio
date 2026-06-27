@@ -24,7 +24,7 @@
     const d = portfolioData;
 
     // Hero
-    setText('hero-greeting', d.greeting + ' 👋');
+    setText('hero-greeting', d.greeting);
     setText('hero-subtitle', d.subtitle);
     setText('hero-description', d.bio);
     document.querySelector('.navbar-logo').textContent = d.name;
@@ -189,7 +189,7 @@
               <div class="project-header">
                 <div class="project-accent-bar" style="background:${accentColor}"></div>
                 <h2>${proj.name}</h2>
-                ${proj.live_url ? `<a href="${proj.live_url}" target="_blank" class="project-checkout-btn">Check out <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7h-10"/></svg></a>` : ''}
+                ${(proj.live_url || proj.github_url) ? `<a href="${proj.live_url || proj.github_url}" target="_blank" class="project-checkout-btn">Check out <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7h-10"/></svg></a>` : ''}
               </div>
               <p class="project-description">${proj.description}</p>
               <div class="project-features">${featuresHTML}</div>

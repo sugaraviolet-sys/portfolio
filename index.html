@@ -29,10 +29,26 @@
 </head>
 <body>
 
+<!-- ============================================ -->
+<!-- SPLASH SCREEN                                -->
+<!-- ============================================ -->
+<div id="splash-screen" class="splash-screen">
+  <div class="splash-content">
+    <h2 class="splash-text glitch" data-text="ERROR 404: Conventional developer not found.">
+      <span class="splash-word" style="--i:0">ERROR</span>
+      <span class="splash-word" style="--i:1">404:</span>
+      <span class="splash-word" style="--i:2">Conventional</span>
+      <span class="splash-word" style="--i:3">developer</span>
+      <span class="splash-word" style="--i:4">not</span>
+      <span class="splash-word" style="--i:5">found.</span>
+    </h2>
+  </div>
+</div>
+
 <!-- Canvas Particle Background -->
 <canvas id="particles-canvas"></canvas>
 
-<main>
+<main style="opacity: 0; transition: opacity 0.5s ease;">
   <!-- ============================================ -->
   <!-- NAVBAR                                       -->
   <!-- ============================================ -->
@@ -313,11 +329,11 @@
         <form class="contact-form animate-on-scroll delay-2" id="contact-form" onsubmit="handleContactSubmit(event)">
           <div class="form-group">
             <label for="contact-name">Your Name</label>
-            <input type="text" id="contact-name" name="name" placeholder="John Doe" required>
+            <input type="text" id="contact-name" name="name" placeholder="Indra Sugara" required>
           </div>
           <div class="form-group">
             <label for="contact-email-input">Your Email</label>
-            <input type="email" id="contact-email-input" name="email" placeholder="john@example.com" required>
+            <input type="email" id="contact-email-input" name="email" placeholder="[EMAIL_ADDRESS]" required>
           </div>
           <div class="form-group">
             <label for="contact-subject">Subject</label>
@@ -391,5 +407,38 @@
 <script src="particles.js"></script>
 <script src="app.js"></script>
 <script src="chat.js"></script>
+
+<!-- Splash Screen Logic -->
+<script>
+(function() {
+  const splash = document.getElementById('splash-screen');
+  const mainEl = document.querySelector('main');
+  const splashText = document.querySelector('.splash-text');
+  
+  if (!splash || !mainEl) return;
+
+  const WORD_INTERVAL = 400;  // ms per word reveal
+  const WORD_COUNT = 6;       // number of words
+  const STATIC_PAUSE = 1000;  // ms after all words shown
+  const GLITCH_DURATION = 500; // ms of glitch effect
+
+  // Calculate total timings
+  const allWordsShown = WORD_COUNT * WORD_INTERVAL;      // 2400ms
+  const glitchStart = allWordsShown + STATIC_PAUSE;       // 3400ms
+  const splashEnd = glitchStart + GLITCH_DURATION;        // 3900ms
+
+  // Phase 2: Start glitch + fade out
+  setTimeout(() => {
+    if (splashText) splashText.classList.add('glitch-active');
+    splash.classList.add('fade-out');
+  }, glitchStart);
+
+  // Phase 3: Remove splash, reveal main content
+  setTimeout(() => {
+    splash.style.display = 'none';
+    mainEl.style.opacity = '1';
+  }, splashEnd);
+})();
+</script>
 </body>
 </html>

@@ -1,186 +1,279 @@
 {
   "name": "Indra Sugara",
   "greeting": "Hey, I'm Indra",
-  "title": "Full Stack Developer",
-  "subtitle": "Engineer across Web, Mobile, and Cloud Systems",
-  "typing_roles": ["AI Engineer","Full Stack Developer", "Mobile Developer", "Cloud Engineer", "Problem Solver", "Tech Enthusiast"],
-  "bio": "I am a developer who works on making software systems that can grow and make a difference. I have worked on both full-stack development and mobile apps. I like using my strong backend skills and modern web technologies to solve real-world problems. I'm always looking for new ways to build intelligent systems for real-life situations.",
+  "title": "AI Engineer",
+  "subtitle": "Building Intelligent Systems across Web, Mobile, and Cloud",
+  "typing_roles": ["Machine Learning Engineer","AI Engineer", "Full Stack Developer", "Cloud Architect", "Problem Solver", "Tech Enthusiast"],
+  "bio": "I am an AI Engineer who specializes in building intelligent systems that can scale and make a difference. While my core expertise lies in artificial intelligence, machine learning, and computer vision, I am also a capable full-stack and mobile developer. I enjoy leveraging my strong backend skills and modern web technologies to integrate AI into real-world applications and solve complex problems.",
   "avatar": "assets/profile.jpg",
   "resume_url": "assets/resume.pdf",
-  "location": "Indonesia",
+  "location": "Tanjungpinang, Kepulauan Riau, Indonesia",
   "email": "sughara78@gmail.com",
   "phone": "+62 822-5930-6737",
 
   "social": {
     "github": "https://github.com/indrasugara",
-    "linkedin": "https://linkedin.com/in/indrasugara",
-    "instagram": "https://instagram.com/indrasugara",
+    "linkedin": "https://linkedin.com/in/indra-sugara",
+    "instagram": "https://instagram.com/sugarrhea_",
     "email": "sughara78@gmail.com"
   },
 
   "core_areas": [
+    "Artificial Intelligence & Machine Learning",
+    "Computer Vision & NLP",
     "Full-Stack Web Development",
     "Mobile Development (Flutter)",
-    "Backend APIs",
-    "Cloud Deployment",
-    "React + Next.js",
-    "Node.js + Express",
-    "TypeScript",
-    "PostgreSQL",
+    "Backend APIs & Microservices",
+    "Cloud Deployment & DevOps",
+    "Python + PyTorch/TensorFlow",
     "DevOps (CI/CD, Docker)"
   ],
 
   "education": [
     {
-      "degree": "S1 Teknik Informatika",
-      "institution": "Universitas Example",
-      "period": "2020 - 2024",
-      "score": "IPK: 3.85/4.00"
-    },
-    {
-      "degree": "SMA IPA",
-      "institution": "SMA Negeri 1 Example",
-      "period": "2017 - 2020",
-      "score": "Nilai: 92/100"
+      "degree": "Bachelor of Engineering in Informatics",
+      "institution": "King Ali Haji Maritime University",
+      "period": "2023 - 2027 (Expected)",
+      "score": "GPA: 3.56/4.00"
     }
   ],
 
   "skills": {
     "programming": [
-      { "name": "JavaScript", "icon": "assets/icons/javascript-icon.svg" },
-      { "name": "TypeScript", "icon": "assets/icons/typescript-icon.svg" },
-      { "name": "Dart", "icon": "assets/icons/dart-icon.svg" },
-      { "name": "Python", "icon": "assets/icons/python-icon.svg" }
+      { "name": "Python", "icon": "assets/icons/icons8-python-480.png" },
+      { "name": "C++", "icon": "assets/icons/icons8-c-480.png" },
+      { "name": "Dart", "icon": "assets/icons/icons8-dart-480.png" },
+      { "name": "JavaScript", "icon": "assets/icons/icons8-javascript-480.png" },
+      { "name": "TensorFlow", "icon": "assets/icons/icons8-tensorflow-480.png" },
+      { "name": "PyTorch", "icon": "assets/icons/icons8-pytorch-100.png" },
+      { "name": "Keras", "icon": "assets/icons/icons8-keras-100.png" },
+      { "name": "Scikit-learn", "icon": "assets/icons/scikit-learn.png" },
+      { "name": "OpenCV", "icon": "assets/icons/icons8-opencv-480.png" },
+      { "name": "TensorFlow.js", "icon": "assets/icons/tensorflowjs.png" }
     ],
     "frontend": [
-      { "name": "Flutter", "icon": "assets/icons/flutter-icon.svg" },
-      { "name": "React", "icon": "assets/icons/react-icon.svg" },
-      { "name": "Next.js", "icon": "assets/icons/nextjs-icon.svg" },
-      { "name": "Tailwind CSS", "icon": "assets/icons/tailwind-icon.svg" },
-      { "name": "HTML5", "icon": "assets/icons/html-icon.svg" },
-      { "name": "CSS3", "icon": "assets/icons/css-icon.svg" }
+      { "name": "Flutter", "icon": "assets/icons/icons8-flutter-480.png" },
+      { "name": "Tailwind CSS", "icon": "assets/icons/icons8-tailwind-css-480.png" },
+      { "name": "HTML5", "icon": "assets/icons/icons8-html5-480.png" },
+      { "name": "CSS3", "icon": "assets/icons/icons8-css3-480.png" }
     ],
     "backend": [
-      { "name": "Node.js", "icon": "assets/icons/nodejs-icon.svg" },
-      { "name": "Express.js", "icon": "assets/icons/express-icon.svg" },
-      { "name": "PostgreSQL", "icon": "assets/icons/postgresql-icon.svg" },
-      { "name": "MongoDB", "icon": "assets/icons/mongodb-icon.svg" },
-      { "name": "Redis", "icon": "assets/icons/redis-icon.svg" },
-      { "name": "Firebase", "icon": "assets/icons/firebase-icon.svg" }
+      { "name": "FastAPI", "icon": "assets/icons/FastAPI.png" },
+      { "name": "Flask", "icon": "assets/icons/icons8-flask-100 (1).png" },
+      { "name": "Laravel", "icon": "assets/icons/Laravel.png" },
+      { "name": "PostgreSQL", "icon": "assets/icons/icons8-postgresql-100 (1).png" },
+      { "name": "MongoDB", "icon": "assets/icons/icons8-mongodb-100.png" },
+      { "name": "Redis", "icon": "assets/icons/icons8-redis-480.png" },
+      { "name": "Firebase", "icon": "assets/icons/icons8-firebase-480.png" },
+      { "name": "Grafana", "icon": "assets/icons/icons8-grafana-480.png" },
+      { "name": "Nginx", "icon": "assets/icons/icons8-nginx-480.png" }
     ],
     "cloud": [
-      { "name": "AWS", "icon": "assets/icons/aws-icon.svg" },
-      { "name": "Docker", "icon": "assets/icons/docker-icon.svg" },
-      { "name": "Vercel", "icon": "assets/icons/vercel-icon.svg" },
-      { "name": "Google Cloud", "icon": "assets/icons/gcp-icon.svg" }
+      { "name": "AWS", "icon": "assets/icons/icons8-aws-480.png" },
+      { "name": "Docker", "icon": "assets/icons/icons8-docker-100 (1).png" },
+      { "name": "Vercel", "icon": "assets/icons/icons8-vercel-100.png" },
+      { "name": "Google Cloud", "icon": "assets/icons/icons8-google-cloud-480.png" }
     ],
-    "tools": ["Git", "GitHub", "Postman", "VS Code", "Figma", "Firebase", "Docker", "Linux"]
+    "tools": ["Colab","Git", "GitHub", "Postman", "VS Code", "Figma", "Firebase", "Docker", "Linux"]
   },
 
   "projects": [
     {
       "name": "LegalEasier",
-      "description": "AI-powered legal document assistant for simplifying legal processes and document management.",
+      "description": "Aplikasi AI yang membantu pengguna memahami dokumen hukum berbahasa Indonesia dengan cara yang lebih sederhana melalui OCR dan analisis NLP.",
       "features": [
-        "Developed an AI-powered legal assistant utilizing NLP for document analysis and summarization.",
-        "Built a responsive Flutter mobile app with clean architecture and state management.",
-        "Integrated backend APIs with Node.js and PostgreSQL for scalable data management.",
-        "Enhanced usability with real-time collaboration features across devices."
+        "Memproses dokumen hukum melalui OCR untuk ekstraksi teks dari gambar dan PDF scan.",
+        "Preprocessing teks hukum dan analisis menggunakan NLP untuk penyederhanaan bahasa legal.",
+        "Menghasilkan ringkasan dokumen hukum yang mudah dipahami oleh masyarakat umum.",
+        "Dibangun dengan Python dan library AI/ML untuk akurasi analisis yang tinggi."
       ],
-      "image": "assets/projects/project-1.jpg",
+      "image": "assets/projects/project-1.jpeg",
       "gradient": "radial-gradient(circle, #6a5acd, #6a5acd, #14235c)",
       "tech_stack": [
-        { "name": "Flutter", "icon": "assets/icons/flutter-icon.svg" },
-        { "name": "Dart", "icon": "assets/icons/dart-icon.svg" },
-        { "name": "Node.js", "icon": "assets/icons/nodejs-icon.svg" },
-        { "name": "PostgreSQL", "icon": "assets/icons/postgresql-icon.svg" }
+        { "name": "Python", "icon": "assets/icons/python-icon.svg" },
+        { "name": "JavaScript", "icon": "assets/icons/javascript-icon.svg" },
+        { "name": "Next.js", "icon": "assets/icons/nextjs-icon.svg" }
       ],
-      "live_url": "https://legaleasier.com",
-      "github_url": "https://github.com/username/legaleasier"
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/LegalEasier"
     },
     {
       "name": "Miniatur Cloud",
-      "description": "A lightweight cloud platform console for managing infrastructure and deployments.",
+      "description": "Platform cloud ringan untuk mengelola infrastruktur dan deployment, dibangun dengan JavaScript modern.",
       "features": [
-        "Built a comprehensive cloud management console with modern web technologies.",
-        "Implemented real-time monitoring dashboard with interactive charts and metrics.",
-        "Designed RESTful APIs for resource provisioning and management.",
-        "Created automated deployment pipelines with CI/CD integration."
+        "Dashboard manajemen cloud dengan monitoring server dan resource secara real-time.",
+        "Antarmuka modern untuk provisioning dan manajemen infrastruktur cloud.",
+        "Visualisasi metrik performa dengan grafik interaktif CPU, memory, dan network.",
+        "Arsitektur modular yang ringan dan mudah di-deploy ke berbagai environment."
       ],
-      "image": "assets/projects/project-2.jpg",
+      "image": "assets/projects/project-2.png",
       "gradient": "radial-gradient(circle, #059669, #059669, #064e3b)",
       "tech_stack": [
-        { "name": "React", "icon": "assets/icons/react-icon.svg" },
+        { "name": "JavaScript", "icon": "assets/icons/javascript-icon.svg" },
         { "name": "Node.js", "icon": "assets/icons/nodejs-icon.svg" },
-        { "name": "Docker", "icon": "assets/icons/docker-icon.svg" },
-        { "name": "AWS", "icon": "assets/icons/aws-icon.svg" }
+        { "name": "Docker", "icon": "assets/icons/docker-icon.svg" }
       ],
-      "live_url": "https://miniatur-cloud.com",
-      "github_url": "https://github.com/username/miniatur-cloud"
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/miniatur-cloud"
     },
     {
-      "name": "Portfolio Website",
-      "description": "Interactive developer portfolio with AI-powered chatbot for engaging visitor experience.",
+      "name": "AgenticNet",
+      "description": "Platform jaringan AI Agent untuk orkestrasi multi-agent yang saling berkomunikasi dan berkolaborasi secara otonom.",
       "features": [
-        "Designed a modern dark-themed portfolio with particle animation background.",
-        "Integrated AI chatbot using DeepSeek API for interactive Q&A about skills and experience.",
-        "Built with vanilla HTML/CSS/JS for maximum performance and minimal bundle size.",
-        "Implemented smooth scroll, typing animation, and glassmorphic UI components."
+        "Arsitektur multi-agent networking untuk komunikasi antar AI agent secara real-time.",
+        "Orkestrasi task yang kompleks dengan pembagian tugas otomatis antar agent.",
+        "Visualisasi graph jaringan agent dan monitoring log komunikasi.",
+        "Dibangun dengan Python menggunakan framework AI/LLM modern."
       ],
-      "image": "assets/projects/project-3.jpg",
-      "gradient": "radial-gradient(circle, #2563eb, #2563eb, #1e1b4b)",
+      "image": "assets/projects/Screenshot (273).png",
+      "gradient": "radial-gradient(circle, #0891b2, #0891b2, #164e63)",
       "tech_stack": [
-        { "name": "HTML5", "icon": "assets/icons/html-icon.svg" },
-        { "name": "CSS3", "icon": "assets/icons/css-icon.svg" },
-        { "name": "JavaScript", "icon": "assets/icons/javascript-icon.svg" }
+        { "name": "Python", "icon": "assets/icons/python-icon.svg" },
+        { "name": "TypeScript", "icon": "assets/icons/typescript-icon.svg" }
       ],
-      "live_url": "https://indrasugara.com",
-      "github_url": "https://github.com/username/portfolio"
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/AgenticNet"
+    },
+    {
+      "name": "Deteksi Penyakit Mata",
+      "description": "Sistem deteksi penyakit mata berbasis Computer Vision dan Deep Learning menggunakan CNN untuk klasifikasi citra fundus mata.",
+      "features": [
+        "Model CNN untuk klasifikasi penyakit mata dari citra fundus dengan akurasi tinggi.",
+        "Deteksi multi-kelas: glaukoma, katarak, retinopati diabetik, dan kondisi normal.",
+        "Pipeline preprocessing citra medis dan augmentasi data untuk training model.",
+        "Notebook Jupyter interaktif dengan visualisasi hasil prediksi dan confusion matrix."
+      ],
+      "image": "assets/projects/project-4.jpg",
+      "gradient": "radial-gradient(circle, #e11d48, #e11d48, #4c0519)",
+      "tech_stack": [
+        { "name": "Python", "icon": "assets/icons/python-icon.svg" },
+        { "name": "TypeScript", "icon": "assets/icons/typescript-icon.svg" }
+      ],
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/Deteksi-Penyakit-Mata"
+    },
+    {
+      "name": "Foreca Serve",
+      "description": "API dan Dashboard peramalan (forecasting) menggunakan model Machine Learning untuk menganalisis tren data di masa depan.",
+      "features": [
+        "RESTful API untuk melayani prediksi dan peramalan data secara real-time.",
+        "Dashboard analitik dengan visualisasi tren masa depan yang interaktif.",
+        "Terintegrasi dengan model Machine Learning berbasis Python.",
+        "Arsitektur server yang ringan, cepat, dan skalabel."
+      ],
+      "image": "assets/projects/project-5.jpg",
+      "gradient": "radial-gradient(circle, #f59e0b, #f59e0b, #78350f)",
+      "tech_stack": [
+        { "name": "Python", "icon": "assets/icons/icons8-python-480.png" },
+        { "name": "FastAPI", "icon": "assets/icons/FastAPI.png" }
+      ],
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/Foreca_Serve"
+    },
+    {
+      "name": "Sistem Informasi Kedai Kopi",
+      "description": "Sistem Point of Sale (POS) dan manajemen informasi bisnis yang dirancang khusus untuk operasional kedai kopi.",
+      "features": [
+        "Manajemen pesanan dan pencatatan transaksi kasir (Point of Sale).",
+        "Pemantauan stok bahan baku dan inventaris produk.",
+        "Laporan penjualan dan statistik pendapatan kedai.",
+        "Antarmuka desktop yang responsif untuk kasir dan admin."
+      ],
+      "image": "assets/projects/project-6.jpg",
+      "gradient": "radial-gradient(circle, #8b5cf6, #8b5cf6, #2e1065)",
+      "tech_stack": [
+        { "name": "Python", "icon": "assets/icons/icons8-python-480.png" }
+      ],
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/Sistem-Informasi-Keda-Kopi"
+    },
+    {
+      "name": "Belajar Computer Vision",
+      "description": "Proyek eksplorasi dan implementasi algoritma Computer Vision untuk deteksi objek dan analisis citra.",
+      "features": [
+        "Implementasi object detection untuk mengenali berbagai objek dalam gambar.",
+        "Pemrosesan citra digital dengan library open-source modern.",
+        "Mendukung analisis real-time menggunakan video feed.",
+        "Cocok untuk pembelajaran dasar Computer Vision dan Machine Learning."
+      ],
+      "image": "assets/projects/project-7.jpg",
+      "gradient": "radial-gradient(circle, #10b981, #10b981, #064e3b)",
+      "tech_stack": [
+        { "name": "Python", "icon": "assets/icons/icons8-python-480.png" },
+        { "name": "OpenCV", "icon": "assets/icons/icons8-opencv-480.png" }
+      ],
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/Belajar-Computer-Vision"
+    },
+    {
+      "name": "Praktikum Pemrograman Web",
+      "description": "Aplikasi web backend berbasis PHP untuk manajemen data dan administrasi sistem.",
+      "features": [
+        "Sistem autentikasi dan manajemen sesi pengguna.",
+        "Operasi CRUD (Create, Read, Update, Delete) lengkap dengan database relasional.",
+        "Desain antarmuka admin dashboard klasik namun fungsional.",
+        "Penerapan konsep dasar keamanan aplikasi web."
+      ],
+      "image": "assets/projects/project-8.jpg",
+      "gradient": "radial-gradient(circle, #3b82f6, #3b82f6, #1e3a8a)",
+      "tech_stack": [
+        { "name": "PHP" },
+        { "name": "HTML5", "icon": "assets/icons/icons8-html5-480.png" },
+        { "name": "CSS3", "icon": "assets/icons/icons8-css3-480.png" }
+      ],
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/Praktikum-Pemrograman-Web"
+    },
+    {
+      "name": "Kuisioner Mahasiswa",
+      "description": "Platform survei web interaktif untuk mengumpulkan kuesioner dan tanggapan dari mahasiswa.",
+      "features": [
+        "Formulir survei dinamis dengan berbagai tipe pertanyaan (pilihan ganda, esai).",
+        "Tampilan responsif yang nyaman diakses melalui perangkat mobile.",
+        "Penyimpanan dan rekapitulasi data respons survei.",
+        "Desain UI/UX yang modern dan ramah pengguna."
+      ],
+      "image": "assets/projects/project-9.jpg",
+      "gradient": "radial-gradient(circle, #ec4899, #ec4899, #831843)",
+      "tech_stack": [
+        { "name": "HTML5", "icon": "assets/icons/icons8-html5-480.png" },
+        { "name": "CSS3", "icon": "assets/icons/icons8-css3-480.png" },
+        { "name": "JavaScript", "icon": "assets/icons/icons8-javascript-480.png" }
+      ],
+      "live_url": "",
+      "github_url": "https://github.com/IndraSugara/Kuisioner-Mahasiswa"
     }
   ],
 
   "experience": [
+    
     {
-      "role": "Full Stack Developer Intern",
-      "company": "Company Name",
-      "period": "Jan 2024 - Jun 2024",
-      "description": "Built and maintained full-stack web applications using React and Node.js. Collaborated with the team to design RESTful APIs and implement responsive UI components. Improved application performance by 30% through code optimization.",
+      "role": "Artificial Intelligence Engineer Cohort",
+      "company": "Coding Camp powered by DBS Foundation",
+      "period": "Feb 2026 - Jul 2026",
+      "description": "Scholarship awardee of the AI Engineer Cohort, a 900-hour intensive program by Coding Camp powered by DBS Foundation (Dicoding × DBS Foundation). Self-Paced Technical Classes: Programming fundamentals & logic · Git & GitHub · AI fundamentals · Python · Machine Learning · Deep Learning fundamentals · Advanced Deep Learning Project Instructor-Led Training (ILT) AI Engineer: Python Programming fundamentals Supervised & Unsupervised Learning Deep Learning: Computer Vision & Time Series NLP & Generative AI Building flexible models with TensorFlow Time Series Prediction with Custom TensorFlow Instructor-Led Training (ILT), Soft Skills: Personal productivity · Growth mindset · Stress management & adaptability · Communication & networking · Project management · Personal branding · Interview preparation Capstone Project: Built an end-to-end deep learning solution covering model design, training, evaluation, and documentation to industry standards.",
       "certificate_image": ""
     },
     {
-      "role": "Mobile Developer",
-      "company": "Freelance",
-      "period": "2023 - Present",
-      "description": "Developed cross-platform mobile applications using Flutter and Dart. Delivered multiple projects for clients including e-commerce apps, task management tools, and social platforms.",
+      "role": "Network Infrastructure Intern",
+      "company": "Diskominfo Batam",
+      "period": "Jan 2026 - Mar 2026",
+      "description": "During this internship, I initiated and developed an Agentic AI workflow to autonomously diagnose and resolve network and infrastructure issues, significantly reducing downtime and improving operational efficiency within a public sector environment. A core part of my work involved engineering an autonomous agent system that streamlined complex infrastructure diagnostic processes, effectively bridging the gap between traditional IT operations and modern AI automation. Alongside this, I assisted in developing a RADIUS-integrated Wi-Fi authentication system to strengthen secure network access control, and collaborated on large-scale IT infrastructure projects with a strong focus on system reliability and performance. Throughout the role, I also provided hands-on technical support for network and server issues, resolving them through data-driven problem-solving in a high-stakes environment, an experience that sharpened both my technical depth and my ability to deliver proactive solutions under pressure.",
       "certificate_image": ""
     }
   ],
 
   "achievements": [
     {
-      "title": "Hackathon Winner",
-      "event": "Tech Hackathon 2025",
-      "type": "achievement",
-      "icon": "trophy"
-    },
-    {
-      "title": "AWS Cloud Practitioner",
-      "event": "Amazon Web Services",
-      "type": "certification",
-      "icon": "certificate",
-      "url": ""
-    },
-    {
-      "title": "Google IT Support",
-      "event": "Google / Coursera",
-      "type": "certification",
-      "icon": "certificate",
-      "url": ""
+      "title": "",
+      "event": "",
+      "type": "",
+      "icon": ""
     }
   ],
 
   "chat": {
-    "welcome_message": "Halo! 👋 Saya AI assistant dari Indra Sugara. Tanya apapun tentang skill, project, atau pengalaman saya!",
+    "welcome_message": "Halo! Saya AI assistant dari Indra Sugara. Tanya apapun tentang skill, project, atau pengalaman saya!",
     "suggested_questions": [
       "Ceritakan tentang diri kamu",
       "Apa project terbaru kamu?",
